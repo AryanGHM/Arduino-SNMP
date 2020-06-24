@@ -19,7 +19,8 @@
 */
 
 #include "ArduinoSNMP.h"
-#include <EthernetUdp.h>
+//#include <EthernetUdp.h> <-- This caused error for my settings, compiling on esp8266
+#include <Ethernet.h> 
 
 EthernetUDP Udp;
 
